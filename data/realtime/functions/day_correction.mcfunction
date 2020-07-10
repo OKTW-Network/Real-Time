@@ -34,3 +34,5 @@ execute if score #day RealTime matches 2.. run time add 2d
 execute if score #day RealTime matches 2.. run scoreboard players remove #day RealTime 2
 execute if score #day RealTime matches 1.. run time add 1d
 execute if score #day RealTime matches 1.. run scoreboard players remove #day RealTime 1
+
+execute if score #day RealTime matches 1.. run function realtime:day_correction

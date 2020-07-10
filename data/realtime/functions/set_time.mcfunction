@@ -21,6 +21,7 @@ scoreboard players operation #2 calcu_temp1 %= #4 calcu_temp1
 scoreboard players operation #MCtick RealTime = #1 calcu_temp1
 scoreboard players operation #RTtick RealTime = #2 calcu_temp1
 execute store result score #day RealTime run time query day
+scoreboard players remove #day RealTime 1
 time set 18000t
 function realtime:set_time-mctick
 function realtime:day_correction
