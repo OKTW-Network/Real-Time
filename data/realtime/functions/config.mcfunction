@@ -15,6 +15,12 @@ scoreboard players set #realtime_print_init Config 0
 # boolean, default: 0
 scoreboard players set #realtime_print_config Config 0
 
+# Timing mode
+# theoretically, schedule mode should more efficient than tick mode
+# 0 = schedule, 1 = tick
+# integer, default: 0
+scoreboard players set #realtime_mode Config 0
+
 
 
 ############# DO NOT MODIFY #############
