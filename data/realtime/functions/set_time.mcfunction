@@ -3,9 +3,9 @@ scoreboard players set #2 calcu_temp1 1200
 scoreboard players set #3 calcu_temp1 20
 scoreboard players set #4 calcu_temp1 72
 
-scoreboard players operation #set_hour RealTime %= static_24 numeric
-scoreboard players operation #set_minute RealTime %= static_60 numeric
-scoreboard players operation #set_second RealTime %= static_60 numeric
+scoreboard players operation #set_hour RealTime %= #24 num
+scoreboard players operation #set_minute RealTime %= #60 num
+scoreboard players operation #set_second RealTime %= #60 num
 
 scoreboard players operation #1 calcu_temp1 *= #set_hour RealTime
 scoreboard players operation #2 calcu_temp1 *= #set_minute RealTime
