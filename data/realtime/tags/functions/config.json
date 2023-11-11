@@ -1,0 +1,7 @@
+{
+  "values": [
+    "realtime:meta/scoreboard/config/register",
+    "realtime:config",
+    "realtime:meta/scoreboard/config/limit"
+  ]
+}
