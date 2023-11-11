@@ -4,10 +4,10 @@
 			"path": "."
 		},
 		{
-			"path": "..\\Creative-utilities"
+			"path": "../Creative-Utilities"
 		},
 		{
-			"path": "..\\Math-integration"
+			"path": "../Math-Integration"
 		}
 	],
 	"settings": {}
